@@ -16,10 +16,10 @@ const Home = () => {
               <div className="slider-cap-wrapper">
                 <div className="hero__caption">
                   <p data-animation="fadeInLeft" data-delay=".2s">
-                    Fulfill your financial objectives
+                    {/* Fulfill your financial objectives */}
                   </p>
                   <h1 data-animation="fadeInLeft" data-delay=".5s">
-                    Small business loans to cover day-to-day costs.
+                    {/* Small business loans to cover day-to-day costs. */}
                   </h1>
                   {/* Hero Btn */}
                   <Link
