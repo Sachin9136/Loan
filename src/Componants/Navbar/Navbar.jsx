@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       <>
-  <div id="preloader-active">
+  {/* <div id="preloader-active">
     <div className="preloader d-flex align-items-center justify-content-center">
       <div className="preloader-inner position-relative">
         <div className="preloader-circle" />
@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
   {/* Preloader Start */}
   <header>
     {/* Header Start */}

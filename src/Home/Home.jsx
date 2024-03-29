@@ -37,7 +37,7 @@ const Home = () => {
               </div>
             </div>
             {/* Single Slider */}
-            <div className="single-slider">
+            {/* <div className="single-slider">
               <div className="slider-cap-wrapper">
                 <div className="hero__caption">
                   <p data-animation="fadeInLeft" data-delay=".2s">
@@ -46,7 +46,7 @@ const Home = () => {
                   <h1 data-animation="fadeInLeft" data-delay=".5s">
                     Small Company Loans for Everyday Costs.
                   </h1>
-                  {/* Hero Btn */}
+                  Hero Btn
                   <Link
                     to="apply_form"
                     className="btn hero-btn"
@@ -60,7 +60,7 @@ const Home = () => {
                   <img src="assets/img/hero/hero_img3.png" alt="" />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           {/* slider-footer Start */}
           <div className="slider-footer section-bg d-none d-sm-block ">
