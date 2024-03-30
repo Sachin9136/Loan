@@ -1,0 +1,21 @@
+.mobile-menu, .offcanvas{
+    display: none ;
+  }
+
+  .mobile-menu{
+    font-size: 22px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .offcanvas{
+    width: 300px !important;
+  }
+
+  @media (max-width: 768px) {
+    .mobile-menu, .offcanvas{
+      display: block;
+    }
+  }

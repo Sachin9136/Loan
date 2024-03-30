@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css";
 import {Link} from "react-router-dom";
 
 const Home = () => {
@@ -311,8 +312,7 @@ const Home = () => {
         {/* Support Company End*/}
         {/* Application Area Start */}
         <div
-          className="application-area pt-150 pb-140"
-          data-background="assets/img/gallery/section_bg03.jpg"
+          className="application-area application_bg pt-150 pb-140"
         >
           <div className="container">
             <div className="row justify-content-center">
