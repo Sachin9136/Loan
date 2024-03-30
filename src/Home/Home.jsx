@@ -325,7 +325,7 @@ const Home = () => {
               </div>
             </div>
             <div className="row justify-content-center">
-              <div className="col-lg-9 col-xl-8">
+              <div className="col-lg-9 col-xl-8"> 
                 {/*Hero form */}
                 <form action="#" className="search-box">
                   <div className="select-form">
@@ -506,27 +506,20 @@ const Home = () => {
         {/* Testimonial Start */}
         <div className="testimonial-area t-bg testimonial-padding">
           <div className="container ">
+            <div className="row">
+              <div className="col-12">
+                <h1 className="text-center text-white mb-5 pt-5">Testimonials</h1>
+              </div>
+            </div>
             <div className="row d-flex justify-content-center">
-              <div className="col-xl-11 col-lg-11 col-md-9">
+              <div className="col-xl-4 col-lg-4 col-md-10 col-sm-12">
                 <div className="h1-testimonial-active">
                   {/* Single Testimonial */}
                   <div className="single-testimonial text-center">
                     {/* Testimonial Content */}
                     <div className="testimonial-caption ">
-                      <div className="testimonial-top-cap">
-                        <img src="assets/img/gallery/testimonial.png" alt="" />
-                        <p>
-                          Navigating the loan process with this website was a
-                          game-changer for me. Their platform made it incredibly
-                          simple to compare options and apply. The customer
-                          service team was always available to answer my
-                          questions, making the entire process stress-free.
-                          Highly recommended for anyone looking to secure a loan
-                          without the hassle.
-                        </p>
-                      </div>
                       {/* founder */}
-                      <div className="testimonial-founder d-flex align-items-center justify-content-center">
+                      <div className="testimonial-founder d-flex align-items-center justify-content-center mb-3">
                         <div className="founder-img">
                           <img
                             src="assets/img/testmonial/Homepage_testi.png"
@@ -538,26 +531,27 @@ const Home = () => {
                           <p>Co Founder</p>
                         </div>
                       </div>
+                      <div className="testimonial-top-cap">
+                        {/* <img src="assets/img/gallery/testimonial.png" alt="" /> */}
+                        <p>
+                          Navigating the loan process with this website was a
+                          game-changer for me. Their platform made it incredibly
+                          simple to compare options and apply.
+                        </p>
+                      </div>
+                      
                     </div>
                   </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-4 col-md-10 col-sm-12">
+                <div className="h1-testimonial-active">
                   {/* Single Testimonial */}
                   <div className="single-testimonial text-center">
                     {/* Testimonial Content */}
                     <div className="testimonial-caption ">
-                      <div className="testimonial-top-cap">
-                        <img src="assets/img/gallery/testimonial.png" alt="" />
-                        <p>
-                          I was skeptical about applying for a loan online, but
-                          this site proved me wrong. The application process was
-                          straightforward, and I was amazed by the quick
-                          approval and disbursement. Their educational resources
-                          also helped me understand the fine print, ensuring I
-                          made an informed decision. A reliable partner for
-                          financial needs.
-                        </p>
-                      </div>
                       {/* founder */}
-                      <div className="testimonial-founder d-flex align-items-center justify-content-center">
+                      <div className="testimonial-founder d-flex align-items-center justify-content-center mb-3">
                         <div className="founder-img">
                           <img
                             src="assets/img/testmonial/Homepage_testi.png"
@@ -565,28 +559,30 @@ const Home = () => {
                           />
                         </div>
                         <div className="founder-text">
-                          <span>Amit</span>
+                          <span>Sachin </span>
                           <p>Co Founder</p>
                         </div>
+                      </div>
+                      <div className="testimonial-top-cap">
+                        {/* <img src="assets/img/gallery/testimonial.png" alt="" /> */}
+                        <p>
+                          Navigating the loan process with this website was a
+                          game-changer for me. Their platform made it incredibly
+                          simple to compare options and apply.
+                        </p>
                       </div>
                     </div>
                   </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-4 col-md-10 col-sm-12">
+                <div className="h1-testimonial-active">
+                  {/* Single Testimonial */}
                   <div className="single-testimonial text-center">
                     {/* Testimonial Content */}
                     <div className="testimonial-caption ">
-                      <div className="testimonial-top-cap">
-                        <img src="assets/img/gallery/testimonial.png" alt="" />
-                        <p>
-                          This loan service website stands out for its
-                          user-friendly interface and variety of loan options.
-                          Whether it was for consolidating debt or financing a
-                          major purchase, I found a plan that suited my budget
-                          perfectly. Their commitment to transparency and
-                          excellent customer support has earned my trust.
-                        </p>
-                      </div>
                       {/* founder */}
-                      <div className="testimonial-founder d-flex align-items-center justify-content-center">
+                      <div className="testimonial-founder d-flex align-items-center justify-content-center mb-3">
                         <div className="founder-img">
                           <img
                             src="assets/img/testmonial/Homepage_testi.png"
@@ -594,9 +590,17 @@ const Home = () => {
                           />
                         </div>
                         <div className="founder-text">
-                          <span>Sushil</span>
+                          <span>Sachin </span>
                           <p>Co Founder</p>
                         </div>
+                      </div>
+                      <div className="testimonial-top-cap">
+                        {/* <img src="assets/img/gallery/testimonial.png" alt="" /> */}
+                        <p>
+                          Navigating the loan process with this website was a
+                          game-changer for me. Their platform made it incredibly
+                          simple to compare options and apply.
+                        </p>
                       </div>
                     </div>
                   </div>
