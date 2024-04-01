@@ -45,10 +45,6 @@ function Emi_Calculator() {
                 </div>
             </div>
         </div> 
-        
-
-
-      
     </div>
   );
 }
