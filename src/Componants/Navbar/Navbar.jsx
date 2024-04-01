@@ -11,14 +11,15 @@ const Navbar = () => {
             <div className="main-header  header-sticky">
               <div className="container-fluid">
                 <div className="row align-items-center">
-                  <div className="col-2">
+                  <div className="col-sm-8 col-md-8 col-lg-4">
                     <div className="logo">
-                      <a href="index.php">
-                        <img src="assets/img/logo/logo.png" alt="" />
-                      </a>
+                      <Link to="/">
+                        <img src="assets/img/logo/logo.jpg" alt="" />
+                        {/* <h1 className="logo_text">Loan Service Point</h1> */}
+                      </Link>
                     </div>
                   </div>
-                  <div className="col-10 d-flex justify-content-end">
+                  <div className="col-sm-4 col-md-4 col-lg-8 d-flex justify-content-end">
                     <div className="menu-main d-flex align-items-center justify-content-end">
                       <div className="main-menu f-right d-none d-lg-block">
                         <ul id="navigation">

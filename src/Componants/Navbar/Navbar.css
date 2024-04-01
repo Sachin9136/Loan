@@ -4,6 +4,8 @@
 
   .mobile-menu{
     font-size: 22px;
+    position: absolute;
+    top: 10px;
   }
 
   a{
@@ -14,8 +16,25 @@
     width: 300px !important;
   }
 
+  .logo img{
+    width: 150px;
+  }
+
   @media (max-width: 768px) {
     .mobile-menu, .offcanvas{
       display: block;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .logo img{
+      width: 120px;
+    }
+  }
+
+  @media (max-width: 425px) {
+ 
+    .logo img{
+      width: 100px;
     }
   }

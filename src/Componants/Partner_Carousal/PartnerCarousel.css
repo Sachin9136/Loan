@@ -1,0 +1,35 @@
+
+  .partners_img div img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .partners_img div{
+    display: flex !important;
+    /* justify-content: end; */
+    align-items: center;
+  }
+
+  .slick-slide{
+    display: flex;
+    justify-content: center;
+  }
+
+  .slick-next{
+    display: none;
+  }
+
+  @media (min-width: 768px){
+    .partners_img div img{
+        width: 150px;
+        height: 150px;
+      }
+  }
+
+  @media (max-width: 425px) {
+    .partners_img div img{
+        width: 80px;
+        height: 80px;
+        margin: 0 5px;
+      }
+  }

@@ -98,8 +98,8 @@ const Footer = () => {
               {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
               Copyright © All rights reserved{" "}
               <i className="fa fa-heart" aria-hidden="true" /> by{" "}
-              <a href="https://www.wavemantra.com/" target="_blank">
-                WaveMantra
+              <a href="https://www.srnsdigitechnologies.co.in/" target="_blank">
+                SRNS Digi Technologies
               </a>
             </p>
           </div>

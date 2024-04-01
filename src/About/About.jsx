@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from "react-router-dom";
 
 const About = () => {
   return (
@@ -38,19 +39,19 @@ const About = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, oeiusmod
               tempor incididunt ut labore et dolore magna aliq.
             </p>
-            <a href="apply.html" className="btn">
+            <Link to="apply" className="btn">
               Apply for Loan
-            </a>
+            </Link>
           </div>
         </div>
         <div className="col-lg-6 col-md-12">
           {/* about-img */}
           <div className="about-img ">
-            <div className="about-font-img d-none d-lg-block">
-              <img src="assets/img/gallery/about2.png" alt="" />
-            </div>
+            {/* <div className="about-font-img d-none d-lg-block">
+              <img src="assets/img/gallery/about2.jpg" alt="" />
+            </div> */}
             <div className="about-back-img ">
-              <img src="assets/img/gallery/about1.png" alt="" />
+              <img src="assets/img/gallery/about2.jpg" alt="" width="100%"/>
             </div>
           </div>
         </div>
@@ -64,7 +65,7 @@ const About = () => {
       <div className="row align-items-center">
         <div className="col-xl-6 col-lg-6">
           <div className="support-location-img mb-50">
-            <img src="assets/img/gallery/single2.jpg" alt="" />
+            <img src="assets/img/gallery/single2.jpg" alt=""/>
             <div className="support-img-cap">
               <span>Since 1992</span>
             </div>
@@ -112,317 +113,6 @@ const About = () => {
     </div>
   </div>
   {/* Support Company End*/}
-  {/* Application Area Start */}
-  <div
-    className="application-area pt-150 pb-140"
-    data-background="assets/img/gallery/section_bg03.jpg"
-  >
-    <div className="container">
-      <div className="row justify-content-center">
-        <div className="col-lg-6 col-md-10">
-          {/* Section Tittle */}
-          <div className="section-tittle section-tittle2 text-center mb-45">
-            <span>Apply in Three Easy Steps</span>
-            <h2>Easy Application Process For Any Types of Loan</h2>
-          </div>
-        </div>
-      </div>
-      <div className="row justify-content-center">
-        <div className="col-lg-9 col-xl-8">
-          {/*Hero form */}
-          <form action="#" className="search-box">
-            <div className="select-form">
-              <div className="select-itms">
-                <select name="select" id="select1">
-                  <option value="">Select Amount</option>
-                  <option value="">$120</option>
-                  <option value="">$700</option>
-                  <option value="">$750</option>
-                  <option value="">$250</option>
-                </select>
-              </div>
-            </div>
-            <div className="select-form">
-              <div className="select-itms">
-                <select name="select" id="select1">
-                  <option value="">Duration Month</option>
-                  <option value="">7 Days</option>
-                  <option value="">10 Days</option>
-                  <option value="">14 Days Days</option>
-                  <option value="">20 Days</option>
-                </select>
-              </div>
-            </div>
-            <div className="input-form">
-              <input type="text" placeholder="Return Amount" />
-            </div>
-            <div className="search-form">
-              <a href="apply.html">Apply for Loan</a>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* Application Area End */}
-  {/*Team Ara Start */}
-  <div className="team-area section-padding30">
-    <div className="container">
-      <div className="row justify-content-center">
-        <div className="cl-xl-7 col-lg-8 col-md-10">
-          {/* Section Tittle */}
-          <div className="section-tittle text-center mb-70">
-            <span>Our Loan Section Team Mambers</span>
-            <h2>Take a look to our professional team members.</h2>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-lg-3 col-md-4 col-sm-6">
-          <div className="single-team mb-30">
-            <div className="team-img">
-              <img src="assets/img/gallery/home_blog1.png" alt="" />
-              {/* Blog Social */}
-              <div className="team-social">
-                <li>
-                  <a href="#">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fas fa-globe" />
-                  </a>
-                </li>
-              </div>
-            </div>
-            <div className="team-caption">
-              <h3>
-                <a href="#">Bruce Roberts</a>
-              </h3>
-              <p>Volunteer leader</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-4 col-sm-6">
-          <div className="single-team mb-30">
-            <div className="team-img">
-              <img src="assets/img/gallery/home_blog2.png" alt="" />
-              {/* Blog Social */}
-              <div className="team-social">
-                <li>
-                  <a href="#">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fas fa-globe" />
-                  </a>
-                </li>
-              </div>
-            </div>
-            <div className="team-caption">
-              <h3>
-                <a href="#">Bruce Roberts</a>
-              </h3>
-              <p>Volunteer leader</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-4 col-sm-6">
-          <div className="single-team mb-30">
-            <div className="team-img">
-              <img src="assets/img/gallery/home_blog3.png" alt="" />
-              {/* Blog Social */}
-              <div className="team-social">
-                <li>
-                  <a href="#">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fas fa-globe" />
-                  </a>
-                </li>
-              </div>
-            </div>
-            <div className="team-caption">
-              <h3>
-                <a href="#">Bruce Roberts</a>
-              </h3>
-              <p>Volunteer leader</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-4 col-sm-6">
-          <div className="single-team mb-30">
-            <div className="team-img">
-              <img src="assets/img/gallery/home_blog4.png" alt="" />
-              {/* Blog Social */}
-              <div className="team-social">
-                <li>
-                  <a href="#">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fas fa-globe" />
-                  </a>
-                </li>
-              </div>
-            </div>
-            <div className="team-caption">
-              <h3>
-                <a href="#">Bruce Roberts</a>
-              </h3>
-              <p>Volunteer leader</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* Team Ara End */}
-  {/* Testimonial Start */}
-  <div className="testimonial-area t-bg testimonial-padding">
-    <div className="container ">
-      <div className="row d-flex justify-content-center">
-        <div className="col-xl-11 col-lg-11 col-md-9">
-          <div className="h1-testimonial-active">
-            {/* Single Testimonial */}
-            <div className="single-testimonial text-center">
-              {/* Testimonial Content */}
-              <div className="testimonial-caption ">
-                <div className="testimonial-top-cap">
-                  <img src="assets/img/gallery/testimonial.png" alt="" />
-                  <p>
-                    Logisti Group is a representative logistics operator
-                    providing full range of ser of customs clearance and
-                    transportation worl.
-                  </p>
-                </div>
-                {/* founder */}
-                <div className="testimonial-founder d-flex align-items-center justify-content-center">
-                  <div className="founder-img">
-                    <img
-                      src="assets/img/testmonial/Homepage_testi.png"
-                      alt=""
-                    />
-                  </div>
-                  <div className="founder-text">
-                    <span>Jessya Inn</span>
-                    <p>Co Founder</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* Single Testimonial */}
-            <div className="single-testimonial text-center">
-              {/* Testimonial Content */}
-              <div className="testimonial-caption ">
-                <div className="testimonial-top-cap">
-                  <img src="assets/img/gallery/testimonial.png" alt="" />
-                  <p>
-                    Logisti Group is a representative logistics operator
-                    providing full range of ser of customs clearance and
-                    transportation worl.
-                  </p>
-                </div>
-                {/* founder */}
-                <div className="testimonial-founder d-flex align-items-center justify-content-center">
-                  <div className="founder-img">
-                    <img
-                      src="assets/img/testmonial/Homepage_testi.png"
-                      alt=""
-                    />
-                  </div>
-                  <div className="founder-text">
-                    <span>Jessya Inn</span>
-                    <p>Co Founder</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* Testimonial End */}
-  {/* Blog Ara Start */}
-  <div className="home-blog-area section-padding30">
-    <div className="container">
-      <div className="row justify-content-center">
-        <div className="col-lg-7 col-md-10">
-          {/* Section Tittle */}
-          <div className="section-tittle text-center mb-70">
-            <span>News form our latest blog</span>
-            <h2>News from around the world selected by us.</h2>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-xl-6 col-lg-6 col-md-6">
-          {/* single-david */}
-          <div className="single-blogs mb-30">
-            <div className="blog-images">
-              <img src="assets/img/gallery/blog1.png" alt="" />
-            </div>
-            <div className="blog-captions">
-              <span>January 28, 2020</span>
-              <h2>
-                <a href="blog_details.html">
-                  The advent of pesticides brought in its benefits and pitfalls.
-                </a>
-              </h2>
-              <p>October 6, a2020by Steve</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-xl-6 col-lg-6 col-md-6">
-          {/* single-david */}
-          <div className="single-blogs mb-30">
-            <div className="blog-images">
-              <img src="assets/img/gallery/blog2.png" alt="" />
-            </div>
-            <div className="blog-captions">
-              <span>January 28, 2020</span>
-              <h2>
-                <a href="blog_details.html">
-                  The advent of pesticides brought in its benefits and pitfalls.
-                </a>
-              </h2>
-              <p>October 6, a2020by Steve</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* Blog Ara End */}
 </main>
 
     </div>

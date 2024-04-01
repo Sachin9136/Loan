@@ -1,6 +1,9 @@
 import React from "react";
 import "./Home.css";
 import {Link} from "react-router-dom";
+import Partner_Carousal from "../Componants/Partner_Carousal/Partner_Carousal";
+import Testimonial from "../Componants/Testimonial/Testimonial";
+import Emi_Calculator from "../Componants/Emi_Calculator/Emi_Calculator";
 
 const Home = () => {
   return (
@@ -167,7 +170,7 @@ const Home = () => {
         >
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-6 col-md-10">
+              <div className="col-lg-10 col-md-10 col-sm-12">
                 {/* Section Tittle */}
                 <div className="section-tittle text-center mb-80">
                   <span>Services that we are providing</span>
@@ -324,9 +327,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="row justify-content-center">
+            {/* <div className="row justify-content-center">
               <div className="col-lg-9 col-xl-8"> 
-                {/*Hero form */}
                 <form action="#" className="search-box">
                   <div className="select-form">
                     <div className="select-itms">
@@ -358,7 +360,8 @@ const Home = () => {
                   </div>
                 </form>
               </div>
-            </div>
+            </div> */}.
+            <Emi_Calculator />
           </div>
         </div>
         {/* Application Area End */}
@@ -511,104 +514,10 @@ const Home = () => {
                 <h1 className="text-center text-white mb-5 pt-5">Testimonials</h1>
               </div>
             </div>
-            <div className="row d-flex justify-content-center">
-              <div className="col-xl-4 col-lg-4 col-md-10 col-sm-12">
-                <div className="h1-testimonial-active">
-                  {/* Single Testimonial */}
-                  <div className="single-testimonial text-center">
-                    {/* Testimonial Content */}
-                    <div className="testimonial-caption ">
-                      {/* founder */}
-                      <div className="testimonial-founder d-flex align-items-center justify-content-center mb-3">
-                        <div className="founder-img">
-                          <img
-                            src="assets/img/testmonial/Homepage_testi.png"
-                            alt=""
-                          />
-                        </div>
-                        <div className="founder-text">
-                          <span>Sachin </span>
-                          <p>Co Founder</p>
-                        </div>
-                      </div>
-                      <div className="testimonial-top-cap">
-                        {/* <img src="assets/img/gallery/testimonial.png" alt="" /> */}
-                        <p>
-                          Navigating the loan process with this website was a
-                          game-changer for me. Their platform made it incredibly
-                          simple to compare options and apply.
-                        </p>
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-4 col-md-10 col-sm-12">
-                <div className="h1-testimonial-active">
-                  {/* Single Testimonial */}
-                  <div className="single-testimonial text-center">
-                    {/* Testimonial Content */}
-                    <div className="testimonial-caption ">
-                      {/* founder */}
-                      <div className="testimonial-founder d-flex align-items-center justify-content-center mb-3">
-                        <div className="founder-img">
-                          <img
-                            src="assets/img/testmonial/Homepage_testi.png"
-                            alt=""
-                          />
-                        </div>
-                        <div className="founder-text">
-                          <span>Sachin </span>
-                          <p>Co Founder</p>
-                        </div>
-                      </div>
-                      <div className="testimonial-top-cap">
-                        {/* <img src="assets/img/gallery/testimonial.png" alt="" /> */}
-                        <p>
-                          Navigating the loan process with this website was a
-                          game-changer for me. Their platform made it incredibly
-                          simple to compare options and apply.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-4 col-md-10 col-sm-12">
-                <div className="h1-testimonial-active">
-                  {/* Single Testimonial */}
-                  <div className="single-testimonial text-center">
-                    {/* Testimonial Content */}
-                    <div className="testimonial-caption ">
-                      {/* founder */}
-                      <div className="testimonial-founder d-flex align-items-center justify-content-center mb-3">
-                        <div className="founder-img">
-                          <img
-                            src="assets/img/testmonial/Homepage_testi.png"
-                            alt=""
-                          />
-                        </div>
-                        <div className="founder-text">
-                          <span>Sachin </span>
-                          <p>Co Founder</p>
-                        </div>
-                      </div>
-                      <div className="testimonial-top-cap">
-                        {/* <img src="assets/img/gallery/testimonial.png" alt="" /> */}
-                        <p>
-                          Navigating the loan process with this website was a
-                          game-changer for me. Their platform made it incredibly
-                          simple to compare options and apply.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Testimonial />
           </div>
         </div>
+        <Partner_Carousal />
         {/* Testimonial End */}
         {/* Blog Ara Start */}
         {/* <div class="home-blog-area section-padding30">
