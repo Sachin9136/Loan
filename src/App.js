@@ -7,6 +7,7 @@ import About from "../src/About/About";
 import Service from "../src/Service/Service";
 import Contact from "../src/Contact/Contact";
 import Apply_Form from "../src/Apply_Form/Apply_form";
+import Privacy_policy from "../src/Privacy_policy/Privacy_policy";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/apply_form" element={<Apply_Form />} />
+        <Route path="/privacy_policy" element={<Privacy_policy />} />
       </Routes>
       <Footer />
     </div>

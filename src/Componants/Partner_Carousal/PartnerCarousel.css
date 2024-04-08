@@ -20,7 +20,7 @@
   }
 
   .number-color{
-    color: #FF0060;
+    color: #FF0060 !important;
   }
 
   .slick-dots{

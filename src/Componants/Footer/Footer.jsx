@@ -83,7 +83,7 @@ const Footer = () => {
                   <Link to="#">Makhdum Sarai Rd, near FAIZ HOSPITAL, M.m Colony, Fathepur, Siwan, Bihar 841226</Link> 
                 </li>
                 <li>
-                  <Link to="#">Privacy Policy</Link> 
+                  <Link to="/privacy_policy">Privacy Policy</Link> 
                 </li>
               </ul>
             </div>

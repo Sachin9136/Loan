@@ -1,5 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import Partner_Carousal from "../Componants/Partner_Carousal/Partner_Carousal";
+
 
 const About = () => {
   return (
@@ -59,15 +61,12 @@ const About = () => {
   <div className="support-company-area section-padding3 fix">
     <div className="container">
       <div className="row align-items-center">
-        <div className="col-xl-6 col-lg-6">
+        {/* <div className="col-xl-3 col-lg-3">
           <div className="support-location-img mb-50 d-flex justify-content-center">
             <img src="assets/img/gallery/single2.jpg" alt=""/>
-            {/* <div className="support-img-cap">
-              <span>Since 1992</span>
-            </div> */}
           </div>
-        </div>
-        <div className="col-xl-6 col-lg-6">
+        </div> */}
+        <div className="col-xl-12 col-lg-12">
           <div className="right-caption">
             {/* Section Tittle */}
             <div className="section-tittle">
@@ -80,6 +79,13 @@ const About = () => {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-12 p-0 m-0">
+          <Partner_Carousal />
         </div>
       </div>
     </div>
