@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Partner_Carousal from "../Componants/Partner_Carousal/Partner_Carousal";
 import Testimonial from "../Componants/Testimonial/Testimonial";
 import Emi_Calculator from "../Componants/Emi_Calculator/Emi_Calculator";
@@ -111,7 +111,7 @@ const Home = () => {
         </div>
         {/* slider Area End*/}
         {/* About Law Start*/}
-        <div className="about-low-area section-padding2">
+        <div className="about-low-area section-padding2 py-5">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 col-md-12">
@@ -120,23 +120,25 @@ const Home = () => {
                   <div className="section-tittle mb-35">
                     <span>About Our Company</span>
                     <h2>
-                      Creating a Better Financial Future with Good Assistance.
+                      Building a Stronger Financial Future with Helpful Support.
                     </h2>
                   </div>
                   <p>
-                    Good financial assistance empowers individuals to make
-                    informed decisions, optimizing personal and family budgets
-                    for long-term security. It lays the groundwork for achieving
-                    financial goals and reducing unnecessary expenditures.
+                    Sufficient financial support enables people to make
+                    well-informed decisions and optimize their personal and
+                    family budgets for long-term security. It establishes the
+                    foundation for reaching financial objectives and cutting
+                    back on wasteful spending.
                   </p>
                   <p>
-                    Access to quality financial guidance helps in navigating
-                    complex investment landscapes, ensuring your hard-earned
-                    money works for you. It promotes financial literacy, crucial
-                    for building a prosperous and sustainable future.
+                    Having access to excellent financial advice makes it easier
+                    to navigate the complicated world of investments and
+                    guarantees that your hard-earned money is working for you.
+                    It encourages financial literacy, which is essential to
+                    creating a prosperous and sustainable future.
                   </p>
                   <Link to="apply_form" className="btn">
-                    Apply for Loan
+                    Get Loan
                   </Link>
                 </div>
               </div>
@@ -174,7 +176,7 @@ const Home = () => {
                 {/* Section Tittle */}
                 <div className="section-tittle text-center mb-80">
                   <span>Services that we are providing</span>
-                  <h2>High Performance Services For All Industries.</h2>
+                  <h2>Superior Functioning Services for Every Sector.</h2>
                 </div>
               </div>
             </div>
@@ -189,56 +191,56 @@ const Home = () => {
                       <Link to="service">Business Loan</Link>
                     </h5>
                     <p>
-                      Consectetur adipisicing elit, sed doeiusmod tempor
-                      incididunt ut labore et dolore
+                      With Our Flexible Business Loans, Your Company Can Get The
+                      Financial Boost It Needs.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6">
-                <div className="single-cat text-center mb-50">
-                  <div className="cat-icon">
-                    <span className="flaticon-loan" />
-                  </div>
-                  <div className="cat-cap">
-                    <h5>
-                      <Link to="service">Commercial Loans</Link>
-                    </h5>
-                    <p>
-                      Consectetur adipisicing elit, sed doeiusmod tempor
-                      incididunt ut labore et dolore
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-6">
-                <div className="single-cat text-center mb-50">
-                  <div className="cat-icon">
-                    <span className="flaticon-loan-1" />
-                  </div>
-                  <div className="cat-cap">
-                    <h5>
-                      <Link to="service">Construction Loans</Link>
-                    </h5>
-                    <p>
-                      Consectetur adipisicing elit, sed doeiusmod tempor
-                      incididunt ut labore et dolore
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-6">
-                <div className="single-cat text-center mb-50">
+                <div className="single-cat single-cat2 text-center mb-50">
                   <div className="cat-icon">
                     <span className="flaticon-like" />
                   </div>
                   <div className="cat-cap">
                     <h5>
-                      <Link to="service">Business Loan</Link>
+                      <Link to="apply_form">Credit cards</Link>
                     </h5>
                     <p>
-                      Consectetur adipisicing elit, sed doeiusmod tempor
-                      incididunt ut labore et dolore
+                      With Our Feature-Rich And Incentives Credit Cards, You Can
+                      Upgrade Your Lifestyle.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-6">
+                <div className="single-cat single-cat2 text-center mb-50">
+                  <div className="cat-icon">
+                    <span className="flaticon-loan-1" />
+                  </div>
+                  <div className="cat-cap">
+                    <h5>
+                      <Link to="apply_form">Home Loans</Link>
+                    </h5>
+                    <p>
+                      Explore Our Selection Of Home Loan Products To See What
+                      Your Dream Home Awaits.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-6">
+                <div className="single-cat single-cat2 text-center mb-50">
+                  <div className="cat-icon">
+                    <span className="flaticon-work" />
+                  </div>
+                  <div className="cat-cap">
+                    <h5>
+                      <Link to="apply_form">Personal Loan</Link>
+                    </h5>
+                    <p>
+                      With Our Vast Range Of Personal Loans, You Can Make Your
+                      Dreams A Reality.
                     </p>
                   </div>
                 </div>
@@ -264,17 +266,15 @@ const Home = () => {
                   {/* Section Tittle */}
                   <div className="section-tittle">
                     <span>Why Choose Our Company</span>
-                    <h2>We Promise Sustainable Future For You.</h2>
+                    <h2>We Assure You of a Sustainable Future.</h2>
                   </div>
                   <div className="support-caption">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud.
+                    For all of your financial needs, including balance transfers, credit cards, business loans, personal loans, and home loans, Loan Service Point is a cutting-edge one-stop shop. One of the top credit lending companies in India, Loan Service Point is present throughout more than 2000 cities and was established by professionals and financial experts with over 25 years of experience, who have built a solid reputation by meeting the demands of over 10 lakh customers. Our highly skilled in-house Loan Calculator algorithm enables us to provide you with the greatest discounts and possibilities for the loan or financial product of your choosing. Our algorithmic engines work for you by utilizing solid factual data derived from the most recent relative market changes and a determined forecast of future trends.
                     </p>
                     <div className="select-suport-items">
                       <label className="single-items">
-                        Aorem ipsum dgolor sitnfd amet dfgbn fbsdg
+                        EASY APPLY & FAST APPROVAL
                         <input
                           type="checkbox"
                           defaultChecked="checked active"
@@ -282,7 +282,7 @@ const Home = () => {
                         <span className="checkmark" />
                       </label>
                       <label className="single-items">
-                        Consectetur adipisicing bfnelit, sedb dvbnfo
+                        GET MONEY IN 2-4 WORKING DAYS
                         <input
                           type="checkbox"
                           defaultChecked="checked active"
@@ -290,21 +290,21 @@ const Home = () => {
                         <span className="checkmark" />
                       </label>
                       <label className="single-items">
-                        Eiusmod tempor incididunt vmgldupout labore
+                        TENURE UP TO 50 LAKH PER MONTHS
                         <input
                           type="checkbox"
                           defaultChecked="checked active"
                         />
                         <span className="checkmark" />
                       </label>
-                      <label className="single-items">
+                      {/* <label className="single-items">
                         Admkde mibvnim veniam, quivds cnostrud.
                         <input
                           type="checkbox"
                           defaultChecked="checked active"
                         />
                         <span className="checkmark" />
-                      </label>
+                      </label> */}
                     </div>
                   </div>
                 </div>
@@ -314,9 +314,7 @@ const Home = () => {
         </div>
         {/* Support Company End*/}
         {/* Application Area Start */}
-        <div
-          className="application-area application_bg pt-150 pb-140"
-        >
+        <div className="application-area application_bg pt-150 pb-140">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-6 col-md-10">
@@ -360,20 +358,20 @@ const Home = () => {
                   </div>
                 </form>
               </div>
-            </div> */}.
+            </div> */}
+            .
             <Emi_Calculator />
           </div>
         </div>
         {/* Application Area End */}
         {/*Team Ara Start */}
-        <div className="team-area section-padding30">
+        {/* <div className="team-area section-padding30">
           <div className="container">
             <div className="row justify-content-center">
               <div className="cl-xl-7 col-lg-8 col-md-10">
-                {/* Section Tittle */}
                 <div className="section-tittle text-center mb-70">
                   <span>Our Loan Section Team Mambers</span>
-                  <h2>Take a look to our professional team members.</h2>
+                  <h2>Examine the members of our seasoned team.</h2>
                 </div>
               </div>
             </div>
@@ -382,7 +380,6 @@ const Home = () => {
                 <div className="single-team mb-30">
                   <div className="team-img">
                     <img src="assets/img/gallery/single2.jpg" alt="" />
-                    {/* Blog Social */}
                     <div className="team-social">
                       <li>
                         <a href="#">
@@ -413,7 +410,6 @@ const Home = () => {
                 <div className="single-team mb-30">
                   <div className="team-img">
                     <img src="assets/img/gallery/single2.jpg" alt="" />
-                    {/* Blog Social */}
                     <div className="team-social">
                       <li>
                         <a href="#">
@@ -444,7 +440,6 @@ const Home = () => {
                 <div className="single-team mb-30">
                   <div className="team-img">
                     <img src="assets/img/gallery/single2.jpg" alt="" />
-                    {/* Blog Social */}
                     <div className="team-social">
                       <li>
                         <a href="#">
@@ -475,7 +470,6 @@ const Home = () => {
                 <div className="single-team mb-30">
                   <div className="team-img">
                     <img src="assets/img/gallery/single2.jpg" alt="" />
-                    {/* Blog Social */}
                     <div className="team-social">
                       <li>
                         <a href="#">
@@ -504,14 +498,16 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Team Ara End */}
         {/* Testimonial Start */}
         <div className="testimonial-area t-bg testimonial-padding">
           <div className="container ">
             <div className="row">
               <div className="col-12">
-                <h1 className="text-center text-white mb-5 pt-5">Testimonials</h1>
+                <h1 className="text-center text-white mb-5 pt-5">
+                  Testimonials
+                </h1>
               </div>
             </div>
             <Testimonial />

@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "./Testomonial.css";
 
 function AutoPlay() {
     const settings = {
@@ -23,7 +24,7 @@ function AutoPlay() {
                         <div className="testimonial-caption ">
                         <div className="testimonial-founder d-flex align-items-center justify-content-center mb-3">
                             <div className="founder-img">
-                            <img src="assets/img/testmonial/Homepage_testi.png" alt="" />
+                                <img src="assets/img/testmonial/Homepage_testi.png" alt="" />
                             </div>
                             <div className="founder-text">
                             <span>Sachin1 </span>

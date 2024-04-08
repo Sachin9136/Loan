@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./Emi_Calculator.css";
 
 function Emi_Calculator() {
   const [loanAmount, setLoanAmount] = useState(5000);
@@ -7,20 +8,21 @@ function Emi_Calculator() {
   const [emi, setEmi] = useState('');
 
   const calculateEMI = () => {
-    const principal = parseFloat(loanAmount);
-    const rate = parseFloat(interestRate) / 100 / 12; // Monthly interest rate
-    const termMonths = parseFloat(loanTerm) * 12; // Loan term in months
+    const principal = parseFloat(loanAmount);   
+    const rate = parseFloat(interestRate)// Monthly interest rate
+    const termMonths = parseFloat(loanTerm) // Loan term in months
 
-    const emiValue = (principal * rate * Math.pow(1 + rate, termMonths)) / (Math.pow(1 + rate, termMonths) - 1);
-
-    setEmi(emiValue.toFixed(2));
+    const interest = (principal * rate * loanTerm / 100); 
+    const totalAmount = principal + interest; 
+    
+    setEmi(totalAmount.toFixed(2)); // Set the total amount
   };
 
   return (
     <div>
         <div className="row justify-content-center">
             <div className="col-lg-9 col-xl-8"> 
-                <form className='d-flex justify-content-center' onSubmit={(e) => { e.preventDefault(); calculateEMI(); }}>
+                <form className='emi-form' onSubmit={(e) => { e.preventDefault(); calculateEMI(); }}>
                     <div className="select-form">
                         <div className="select-itms">
                             <input type="number" id="loanAmount" placeholder='Loan Amount' onChange={(e) => setLoanAmount(e.target.value)} required/><br/><br/>

@@ -1,7 +1,7 @@
 
   .partners_img div img{
-    width: 100px;
-    height: 100px;
+    width: 80%;
+    height: 150px;
   }
 
   .partners_img div{
@@ -19,17 +19,10 @@
     display: none;
   }
 
-  @media (min-width: 768px){
-    .partners_img div img{
-        width: 150px;
-        height: 150px;
-      }
+  .number-color{
+    color: #FF0060;
   }
 
-  @media (max-width: 425px) {
-    .partners_img div img{
-        width: 80px;
-        height: 80px;
-        margin: 0 5px;
-      }
+  .slick-dots{
+    top: 180px;
   }

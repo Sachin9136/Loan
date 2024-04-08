@@ -1,0 +1,9 @@
+.form-bg{
+    background-color: #FF0060;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.label i .fa, span{
+    color: white !important;
+}

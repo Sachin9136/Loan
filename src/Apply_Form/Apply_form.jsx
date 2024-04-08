@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "./Apply-form.css";
 
 const Apply_form = () => {
   return (
     <div>
       <main>
   {/* Hero Start*/}
-  <div className="hero-area2  slider-height2 hero-overly2 d-flex align-items-center ">
+  <div className="hero-area2  slider-height2 hero-overly2 d-flex align-items-center mb-0">
     <div className="container">
       <div className="row">
         <div className="col-xl-12">
@@ -18,195 +19,195 @@ const Apply_form = () => {
   </div>
   {/*Hero End */}
   {/* Apply Area Start */}
-  <div className="apply-area pt-150 pb-150">
-    <div className="container">
-      <div className="row justify-content-center">
-        <div className="col-lg-8">
-          <div className="apply-wrapper">
-            {/* Form */}
-            <form action="#">
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="single-form">
-                    <label>* LOAN AMOUNT ($) </label>
-                    <input type="text" name="" placeholder="Enter name" />
-                  </div>
-                </div>
-                {/* Nice Select */}
-                <div className="col-lg-6">
-                  <div className="single-form">
-                    <label>* PURPOSE OF LOAN </label>
-                    <div className="select-option mb-10">
-                      <select name="select" id="select1">
-                        <option value="">Choose Categories</option>
-                        <option value="">Category 1</option>
-                        <option value="">Category 2</option>
-                        <option value="">Category 3</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-                {/* Radio */}
-                <div className="col-lg-12">
-                  <div className="single-form  d-flex">
-                    <label>* Select Gender :</label>
-                    {/*Radio Select */}
-                    <div className="select-radio6">
-                      <div className="radio">
-                        <input id="radio-1" name="radio" type="radio" />
-                        <label htmlFor="radio-1" className="radio-label">
-                          Male
-                        </label>
-                      </div>
-                      <div className="radio">
-                        <input id="radio-2" name="radio" type="radio" />
-                        <label htmlFor="radio-2" className="radio-label">
-                          Female
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* First Name */}
-                <div className="col-lg-6">
-                  <div className="single-form">
-                    <label>* FIRST NAME</label>
-                    <input type="text" name="" placeholder="Enter name" />
-                  </div>
-                </div>
-                {/* Last Name */}
-                <div className="col-lg-6">
-                  <div className="single-form">
-                    <label>* Last NAME</label>
-                    <input type="text" name="" placeholder="Enter name" />
-                  </div>
-                </div>
-                {/* Nice Select */}
-                {/* Nice Select */}
-                <div className="col-lg-12">
-                  <div className="single-form">
-                    <label>* NUMBER OF DEPENDANTS</label>
-                    <div className="select-option mb-10">
-                      <select name="select" id="select1">
-                        <option value="">Choose Option</option>
-                        <option value="">Category 1</option>
-                        <option value="">Category 2</option>
-                        <option value="">Category 3</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-                {/* First Name */}
-                <div className="col-lg-6">
-                  <div className="single-form">
-                    <label>* Email Adderess</label>
-                    <input type="email" name="" placeholder="Enter email" />
-                  </div>
-                </div>
-                {/* Last Name */}
-                <div className="col-lg-6">
-                  <div className="single-form">
-                    <label>* Phone Number</label>
-                    <input type="text" name="" placeholder="Enter Number" />
-                  </div>
-                </div>
-                {/* Nice Select */}
-                <div className="col-lg-12">
-                  <div className="single-form">
-                    <label>* MARITAL STATUS</label>
-                    <div className="select-option mb-10">
-                      <select name="select" id="select1">
-                        <option value="">Choose Categories</option>
-                        <option value="">Category 1</option>
-                        <option value="">Category 2</option>
-                        <option value="">Category 3</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-                {/* First Name */}
-                <div className="col-lg-6">
-                  <div className="single-form">
-                    <label>* FIRST NAME</label>
-                    <input type="text" name="" placeholder="Enter name" />
-                  </div>
-                </div>
-                {/* TOWN/CITY*/}
-                <div className="col-lg-6">
-                  <div className="single-form">
-                    <label>* TOWN/CITY</label>
-                    <input type="text" name="" placeholder="Enter city" />
-                  </div>
-                </div>
-                {/* Street Address */}
-                <div className="col-lg-6">
-                  <div className="single-form">
-                    <label>* STREET</label>
-                    <input
+  <div className="container">
+    <div className="row d-flex justify-content-center">
+      <div className="col-sm-12 col-md-10 col-lg-10 form-bg">
+      <div className='p-5'>
+        <div>
+            <form
+            method="post"
+            className="comment-form contact__form ">
+            <div
+                className="alert alert-success contact__msg"
+                style={{ display: "none" }}
+                role="alert"
+            >
+                Your message was sent successfully.
+            </div>
+            <div className="row">
+                <div className="col-sm-12 col-md-6 col-lg-6">
+                  <p className="comment-form-subject">
+                      <label htmlFor="First Name">
+                      <i className="fa fa-pencil-alt" />
+                      <span> First Name</span>
+                      </label>
+                      <input
+                      placeholder="Type Your First Name"
+                      className="form-control bg-white"
+                      id="first-name"
+                      name="first-name"
                       type="text"
-                      name=""
-                      placeholder="Enter Street Address"
+                      defaultValue=""
+                      required=""
+                      />
+                  </p>
+                </div>
+                <div className="col-sm-12 col-md-6 col-lg-6">
+                  <p className="comment-form-subject">
+                      <label htmlFor="Last Name">
+                      <i className="fa fa-pencil-alt" />
+                      <span> Last Name</span>
+                      </label>
+                      <input
+                      placeholder="Type Your Last Name"
+                      className="form-control bg-white"
+                      id="last-name"
+                      name="last-name"
+                      type="text"
+                      defaultValue=""
+                      required=""
+                      />
+                  </p>
+                </div>
+                <div className="col-sm-12 col-md-6 col-lg-6">
+                <p className="comment-form-subject">
+                    <label htmlFor="subject">
+                    <i className="fa fa-pencil-alt" />
+                    <span> Email</span>
+                    </label>
+                    <input 
+                    placeholder="Type Your Email"
+                    className="form-control bg-white"
+                    id="email"
+                    name="email"
+                    type="email"
+                    defaultValue=""
+                    required=""
                     />
-                  </div>
+                </p>
                 </div>
-                {/* HOUSE NAME/NUMBER */}
-                <div className="col-lg-6">
-                  <div className="single-form">
-                    <label>* HOUSE NAME/NUMBER</label>
-                    <input type="text" name="" placeholder="Enter House Name" />
-                  </div>
+                <div className="col-sm-12 col-md-6 col-lg-6">
+                  <p className="comment-form-subject">
+                      <label htmlFor="subject">
+                      <i className="fa fa-pencil-alt" />
+                      <span> Phone Number</span>
+                      </label>
+                      <input
+                      placeholder="Phone Number"
+                      className="form-control bg-white"
+                      id="phone"
+                      name="phone"
+                      type="number"
+                      defaultValue=""
+                      required=""
+                      />
+                  </p>
                 </div>
-                {/* Nice Select */}
-                <div className="col-lg-12">
-                  <div className="single-form">
-                    <label>* HOMEOWNER STATUS </label>
-                    <div className="select-option mb-10">
-                      <select name="select" id="select1">
-                        <option value="">Enter Houseowner ststus</option>
-                        <option value="">Category 1</option>
-                        <option value="">Category 2</option>
-                        <option value="">Category 3</option>
-                      </select>
-                    </div>
-                  </div>
+                <div className="col-sm-12 col-md-6 col-lg-6">
+                  <p  className="comment-form-subject">
+                  <label htmlFor="subject">
+                      <i className="fa fa-pencil-alt" />
+                      <span> Select Your Loan Type</span>
+                      </label>
+                    <select class="form-control bg-white" aria-label="Default select example">
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </p>
                 </div>
-                {/*  EMPLOYMENT INDUSTRY */}
-                <div className="col-lg-6">
-                  <div className="single-form">
-                    <label>* EMPLOYMENT INDUSTRY</label>
-                    <input type="text" name="" placeholder="Enter INDUSTRY" />
-                  </div>
+                <div className="col-sm-12 col-md-6 col-lg-6">
+                  <p className="comment-form-subject">
+                      <label htmlFor="subject">
+                      <i className="fa fa-pencil-alt" />
+                      <span> Company Name</span>
+                      </label>
+                      <input
+                      placeholder="Company Name"
+                      className="form-control bg-white"
+                      id="Company Name"
+                      name="Company Name"
+                      type="text"
+                      defaultValue=""
+                      required=""
+                      />
+                  </p>
                 </div>
-                {/* Last Name */}
-                <div className="col-lg-6">
-                  <div className="single-form">
-                    <label>* EMPLOYER NAME</label>
-                    <input type="text" name="" placeholder="Enter name" />
-                  </div>
+                <div className="col-sm-12 col-md-6 col-lg-6">
+                  <p  className="comment-form-subject">
+                  <label htmlFor="subject">
+                      <i className="fa fa-pencil-alt" />
+                      <span> Select Your Company Type</span>
+                      </label>
+                    <select class="form-control bg-white" aria-label="Default select example">
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </p>
                 </div>
-                {/*PHONE NUMBER */}
-                <div className="col-lg-6">
-                  <div className="single-form">
-                    <label>* WORK PHONE NUMBER</label>
-                    <input type="text" name="" placeholder="Phone Number" />
-                  </div>
+                <div className="col-sm-12 col-md-6 col-lg-6">
+                  <p className="comment-form-subject">
+                      <label htmlFor="Pincode">
+                      <i className="fa fa-pencil-alt" />
+                      <span> Pincode</span>
+                      </label>
+                      <input
+                      placeholder="Pincode"
+                      className="form-control bg-white"
+                      id="pincode"
+                      name="pincode"
+                      type="text"
+                      defaultValue=""
+                      required=""
+                      />
+                  </p>
                 </div>
-                {/*  MONTHLY INCOME */}
-                <div className="col-lg-6">
-                  <div className="single-form">
-                    <label>* MONTHLY INCOME ($)</label>
-                    <input type="text" name="" placeholder="Enter name" />
-                  </div>
+                <div className="col-sm-12 col-md-6 col-lg-6">
+                  <p className="comment-form-subject">
+                      <label htmlFor="State">
+                      <i className="fa fa-pencil-alt" />
+                      <span> State</span>
+                      </label>
+                      <input
+                      placeholder="State"
+                      className="form-control bg-white"
+                      id="state"
+                      name="state"
+                      type="text"
+                      defaultValue=""
+                      required=""
+                      />
+                  </p>
                 </div>
-              </div>
+                <div className="col-sm-12 col-md-6 col-lg-6">
+                  <p className="comment-form-subject">
+                      <label htmlFor="City">
+                      <i className="fa fa-pencil-alt" />
+                      <span> City</span>
+                      </label>
+                      <input
+                      placeholder="City"
+                      className="form-control bg-white"
+                      id="city"
+                      name="city"
+                      type="text"
+                      defaultValue=""
+                      required=""
+                      />
+                  </p>
+                </div>
+            </div>
+            <p className="form-submit">
+                <button type="submit" className="submit btn btn-primary">
+                    Send Message
+                </button>
+            </p>
             </form>
-            {/* End From */}
-            {/* Form btn */}
-            <a href="#" className="btn apply-btn mt-30">
-              APPLY NOW{" "}
-            </a>
-          </div>
         </div>
+    </div>
       </div>
     </div>
   </div>

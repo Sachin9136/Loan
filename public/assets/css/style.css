@@ -108,6 +108,21 @@
   cursor: pointer;
 }
 
+.underline{
+  color: #FF0060;
+  text-decoration: underline;
+}
+
+.hero-area2{
+  background-image: url("../img/hero/hero2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
 /* line 80, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_variables.scss */
 .boxed-btn:hover {
   background: #FF0060;
@@ -1709,7 +1724,7 @@ hr {
 
 /* line 506, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 .pt-150 {
-  padding-top: 150px;
+  padding-top: 50px;
 }
 
 /* line 506, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
@@ -1905,7 +1920,9 @@ hr {
 
 /* line 513, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 .pb-140 {
-  padding-bottom: 140px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* line 513, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
@@ -1915,7 +1932,7 @@ hr {
 
 /* line 513, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 .pb-150 {
-  padding-bottom: 150px;
+  padding-bottom: 50px;
 }
 
 /* line 513, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
@@ -2567,8 +2584,8 @@ hr {
 /*-- Section Padding -- */
 /* line 714, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 .section-padding2 {
-  /* padding-top: 200px; */
-  /* padding-bottom: 200px; */
+  /* padding-top: 100px; */
+  /* padding-bottom: 50px; */
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -3410,27 +3427,27 @@ hr {
   /* background-image: url(../img/hero/hero2.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 360px;
+  min-height: 300px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 131, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .hero-area2 {
-    min-height: 400px;
+    min-height: 300px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 131, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .hero-area2 {
-    min-height: 360px;
+    min-height: 300px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 131, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .hero-area2 {
-    min-height: 360px;
+    min-height: 300px;
   }
 }
 
@@ -6711,7 +6728,7 @@ hr {
 
 /* line 61, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_contact.scss */
 .form-contact .form-control {
-  border: 1px solid #e5e6e9;
+  border: 1px solid #a5a7af;
   border-radius: 0px;
   height: 48px;
   padding-left: 18px;

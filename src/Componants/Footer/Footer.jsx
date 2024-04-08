@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -11,12 +12,12 @@ const Footer = () => {
           <div className="single-footer-caption mb-50">
             <div className="single-footer-caption mb-30">
               {/* logo */}
-              <div className="footer-logo">
-                <a href="index.html">
-                  <img src="assets/img/logo/logo2_footer.png" alt="" />
-                </a>
+              <div className="logo">
+                <Link to="/">
+                  <img src="assets/img/logo/logo.jpg" alt="" />
+                </Link> 
               </div>
-              <div className="footer-pera">
+              <div className="footer-pera pt-3">
                 <p>
                   Heaven fruitful doesn't over lesser days appear creeping
                   seasons so behold bearing
@@ -31,16 +32,16 @@ const Footer = () => {
               <h4>Quick Link</h4>
               <ul>
                 <li>
-                  <a href="#">About</a>
+                  <Link to="/">Home</Link> 
                 </li>
                 <li>
-                  <a href="#">Offers &amp; Discounts</a>
+                  <Link to="/about">About</Link> 
                 </li>
                 <li>
-                  <a href="#">Get Coupon</a>
+                  <Link to="/services">Services</Link> 
                 </li>
                 <li>
-                  <a href="#"> Contact Us</a>
+                  <Link to="/contact"> Contact Us</Link> 
                 </li>
               </ul>
             </div>
@@ -49,19 +50,19 @@ const Footer = () => {
         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
           <div className="single-footer-caption mb-50">
             <div className="footer-tittle">
-              <h4>New Products</h4>
+              <h4>Loans</h4>
               <ul>
                 <li>
-                  <a href="#">Woman Cloth</a>
+                  <Link to="#">Home Loan</Link> 
                 </li>
                 <li>
-                  <a href="#">Fashion Accessories</a>
+                  <Link to="#">Bussiness Loan</Link> 
                 </li>
                 <li>
-                  <a href="#">Man Accessories</a>
+                  <Link to="#">Car Loan</Link> 
                 </li>
                 <li>
-                  <a href="#">Rubber made Toys</a>
+                  <Link to="#">Gold Loan</Link> 
                 </li>
               </ul>
             </div>
@@ -73,16 +74,16 @@ const Footer = () => {
               <h4>Support</h4>
               <ul>
                 <li>
-                  <a href="#">Frequently Asked Questions</a>
+                  <Link to="#">+91 9939130196</Link> 
                 </li>
                 <li>
-                  <a href="#">Terms &amp; Conditions</a>
+                  <Link to="#">loanservicepoint01@gmail.com</Link> 
                 </li>
                 <li>
-                  <a href="#"> Privacy Policy</a>
+                  <Link to="#">Makhdum Sarai Rd, near FAIZ HOSPITAL, M.m Colony, Fathepur, Siwan, Bihar 841226</Link> 
                 </li>
                 <li>
-                  <a href="#">Report a Payment Issue</a>
+                  <Link to="#">Privacy Policy</Link> 
                 </li>
               </ul>
             </div>
@@ -98,27 +99,27 @@ const Footer = () => {
               {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
               Copyright © All rights reserved{" "}
               <i className="fa fa-heart" aria-hidden="true" /> by{" "}
-              <a href="https://www.srnsdigitechnologies.co.in/" target="_blank">
+              <Link to="https://www.srnsdigitechnologies.co.in/" target="_blank">
                 SRNS Digi Technologies
-              </a>
+              </Link> 
             </p>
           </div>
         </div>
         <div className="col-xl-3 col-lg-4">
           {/* Footer Social */}
           <div className="footer-social f-right">
-            <a href="#">
+            {/* <Link to="#">
               <i className="fab fa-twitter" />
-            </a>
+            </Link>  */}
+            <a href="https://www.facebook.com/profile.php?id=61557768758518">
+              <i className="fab fa-facebook-f fs-5" />
+            </a> 
             <a href="#">
-              <i className="fab fa-facebook-f" />
-            </a>
-            <a href="#">
-              <i className="fas fa-globe" />
-            </a>
-            <a href="#">
+              <i className="fas fa-globe  fs-5" />
+            </a> 
+            {/* <Link to="#">
               <i className="fab fa-instagram" />
-            </a>
+            </Link>  */}
           </div>
         </div>
       </div>

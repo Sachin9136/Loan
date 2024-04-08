@@ -1,0 +1,11 @@
+
+.emi-form{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px){
+    .emi-form{
+        display: block;
+    }
+}

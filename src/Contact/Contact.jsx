@@ -27,7 +27,6 @@ const Contact = () => {
               <div className="col-lg-8">
                 <form
                   className="form-contact contact_form"
-                  action="https://themewagon.github.io/loan/contact_process.php"
                   method="post"
                   id="contactForm"
                   noValidate="novalidate"
@@ -104,8 +103,8 @@ const Contact = () => {
                     <i className="ti-home" />
                   </span>
                   <div className="media-body">
-                    <h3>Buttonwood, California.</h3>
-                    <p>Rosemead, CA 91770</p>
+                    <h3>Makhdum Sarai Rd, near FAIZ HOSPITAL, M.m Colony, Fathepur, Siwan, Bihar 841226</h3>
+                    {/* <p>Rosemead, CA 91770</p> */}
                   </div>
                 </div>
                 <div className="media contact-info">
@@ -113,7 +112,7 @@ const Contact = () => {
                     <i className="ti-tablet" />
                   </span>
                   <div className="media-body">
-                    <h3>+1 253 565 2365</h3>
+                    <h3>+91 9939130196</h3>
                     <p>Mon to Fri 9am to 6pm</p>
                   </div>
                 </div>
@@ -122,7 +121,7 @@ const Contact = () => {
                     <i className="ti-email" />
                   </span>
                   <div className="media-body">
-                    <h3>support@colorlib.com</h3>
+                    <h3>loanservicepoint01@gmail.com</h3>
                     <p>Send us your query anytime!</p>
                   </div>
                 </div>

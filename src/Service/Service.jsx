@@ -38,27 +38,10 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">Business Loan</Link>
+                <Link to="/apply_form">Business Loan</Link>
               </h5>
               <p>
-                Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
-                labore et dolore
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-6 col-sm-6">
-          <div className="single-cat single-cat2 text-center mb-50">
-            <div className="cat-icon">
-              <span className="flaticon-loan" />
-            </div>
-            <div className="cat-cap">
-              <h5>
-                <Link to="apply_form">Commercial Loans</Link>
-              </h5>
-              <p>
-                Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
-                labore et dolore
+                With Our Flexible Business Loans, Your Company Can Get The Financial Boost It Needs.
               </p>
             </div>
           </div>
@@ -70,11 +53,10 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">Home Loans</Link>
+                <Link to="/apply_form">Home Loans</Link>
               </h5>
               <p>
-                Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
-                labore et dolore
+              Explore Our Selection Of Home Loan Products To See What Your Dream Home Awaits.
               </p>
             </div>
           </div>
@@ -86,11 +68,10 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">Personal Loan</Link>
+                <Link to="/apply_form">Personal Loan</Link>
               </h5>
               <p>
-                Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
-                labore et dolore
+              With Our Vast Range Of Personal Loans, You Can Make Your Dreams A Reality.
               </p>
             </div>
           </div>
@@ -102,11 +83,10 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">Credit cards</Link>
+                <Link to="/apply_form">Credit cards</Link>
               </h5>
               <p>
-                Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
-                labore et dolore
+              With Our Feature-Rich And Incentives Credit Cards, You Can Upgrade Your Lifestyle.
               </p>
             </div>
           </div>
@@ -118,11 +98,10 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">Gold Loan</Link>
+                <Link to="/apply_form">Gold Loan</Link>
               </h5>
               <p>
-                Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
-                labore et dolore
+              Fulfill Your Financial Needs With Gold Loan From Various Banking Partners
               </p>
             </div>
           </div>
@@ -134,11 +113,10 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">Education Loans</Link>
+                <Link to="/apply_form">Education Loans</Link>
               </h5>
               <p>
-                Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
-                labore et dolore
+              With Our Specialized Education Loans, You Can Ensure Your Child's Future Academic Success.
               </p>
             </div>
           </div>
@@ -150,11 +128,10 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">Car Loan</Link>
+                <Link to="/apply_form">Car Loan</Link>
               </h5>
               <p>
-                Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
-                labore et dolore
+              With Our Lightning-fast And Flexible Auto Loans, You Can Make Your Dream Car A Reality.
               </p>
             </div>
           </div>
@@ -166,7 +143,7 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">Loan Against Property</Link>
+                <Link to="/apply_form">Loan Against Property</Link>
               </h5>
               <p>
                 Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
@@ -199,11 +176,10 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">Life Insurance</Link>
+                <Link to="/apply_form">Life Insurance</Link>
               </h5>
               <p>
-                Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
-                labore et dolore
+              Use Our Dependable Life Insurance Plans to Safeguard the Future of Your Loved Ones.
               </p>
             </div>
           </div>
@@ -215,11 +191,10 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">Life Insurance</Link>
+                <Link to="/apply_form">Health Insurance</Link>
               </h5>
               <p>
-                Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
-                labore et dolore
+              Discover Our Excellent Insurance Options To Make Sure Your Health Is In Good Hands.
               </p>
             </div>
           </div>
@@ -231,11 +206,10 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">General Insurance</Link>
+                <Link to="/apply_form">General Insurance</Link>
               </h5>
               <p>
-                Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
-                labore et dolore
+              Simple Insurance: Our Knowledge, Your Safety.
               </p>
             </div>
           </div>
@@ -247,7 +221,7 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">Personal Loan</Link>
+                <Link to="/apply_form">Personal Loan</Link>
               </h5>
               <p>
                 Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
@@ -263,7 +237,7 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">Credit cards</Link>
+                <Link to="/apply_form">Credit cards</Link>
               </h5>
               <p>
                 Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
@@ -279,7 +253,7 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">Gold Loan</Link>
+                <Link to="/apply_form">Gold Loan</Link>
               </h5>
               <p>
                 Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
@@ -295,7 +269,7 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">Education Loans</Link>
+                <Link to="/apply_form">Education Loans</Link>
               </h5>
               <p>
                 Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
@@ -311,7 +285,7 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">Car Loan</Link>
+                <Link to="/apply_form">Car Loan</Link>
               </h5>
               <p>
                 Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
@@ -327,7 +301,7 @@ const Service = () => {
             </div>
             <div className="cat-cap">
               <h5>
-                <Link to="apply_form">Loan Against Property</Link>
+                <Link to="/apply_form">Loan Against Property</Link>
               </h5>
               <p>
                 Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut

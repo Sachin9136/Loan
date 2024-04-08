@@ -14,8 +14,7 @@ const Navbar = () => {
                   <div className="col-sm-8 col-md-8 col-lg-4">
                     <div className="logo">
                       <Link to="/">
-                        <img src="assets/img/logo/logo.jpg" alt="" />
-                        {/* <h1 className="logo_text">Loan Service Point</h1> */}
+                        <img src="assets/img/logo/logo2.png" alt="" />
                       </Link>
                     </div>
                   </div>
@@ -38,8 +37,8 @@ const Navbar = () => {
                         </ul>
                       </div>
                       <div className="header-right-btn f-right d-none d-lg-block">
-                        <a href="tel:+91 1234567892" className="btn header-btn">
-                          +91 12345678990{" "}
+                        <a href="tel:+91 9939130196" className="btn header-btn">
+                          +91 9939130196{" "}
                         </a>
                       </div>
                     </div>
@@ -91,10 +90,10 @@ const Navbar = () => {
                           </div>
                           <div className="header-right-btn f-right d-none d-lg-block">
                             <a
-                              href="tel:+91 1234567892"
+                              href="tel:+91 9939130196"
                               className="btn header-btn"
                             >
-                              +91 12345678990{" "}
+                              +91 9939130196{" "}
                             </a>
                           </div>
                         </div>
