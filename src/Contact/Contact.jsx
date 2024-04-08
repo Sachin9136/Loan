@@ -13,7 +13,7 @@ const Contact = () => {
                   <h2>Contact Us</h2>
                 </div>
               </div>
-            </div>
+            </div> 
           </div>
         </div>
         {/*Hero End */}
@@ -26,6 +26,7 @@ const Contact = () => {
               </div>
               <div className="col-lg-8">
                 <form
+                action='https://formspree.io/f/mayrlebp'
                   className="form-contact contact_form"
                   method="post"
                   id="contactForm"

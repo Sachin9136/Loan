@@ -27,7 +27,7 @@ const Home = () => {
                   </h1>
                   {/* Hero Btn */}
                   <Link
-                    to="apply_form"
+                    to="/apply_form"
                     className="btn hero-btn"
                     data-animation="fadeInLeft"
                     data-delay=".8s"
@@ -52,7 +52,7 @@ const Home = () => {
                   </h1>
                   Hero Btn
                   <Link
-                    to="apply_form"
+                    to="/apply_form"
                     className="btn hero-btn"
                     data-animation="fadeInLeft"
                     data-delay=".8s"
@@ -137,7 +137,7 @@ const Home = () => {
                     It encourages financial literacy, which is essential to
                     creating a prosperous and sustainable future.
                   </p>
-                  <Link to="apply_form" className="btn">
+                  <Link to="/apply_form" className="btn">
                     Get Loan
                   </Link>
                 </div>
@@ -204,7 +204,7 @@ const Home = () => {
                   </div>
                   <div className="cat-cap">
                     <h5>
-                      <Link to="apply_form">Credit cards</Link>
+                      <Link to="/apply_form">Credit cards</Link>
                     </h5>
                     <p>
                       With Our Feature-Rich And Incentives Credit Cards, You Can
@@ -220,7 +220,7 @@ const Home = () => {
                   </div>
                   <div className="cat-cap">
                     <h5>
-                      <Link to="apply_form">Home Loans</Link>
+                      <Link to="/apply_form">Home Loans</Link>
                     </h5>
                     <p>
                       Explore Our Selection Of Home Loan Products To See What
@@ -236,7 +236,7 @@ const Home = () => {
                   </div>
                   <div className="cat-cap">
                     <h5>
-                      <Link to="apply_form">Personal Loan</Link>
+                      <Link to="/apply_form">Personal Loan</Link>
                     </h5>
                     <p>
                       With Our Vast Range Of Personal Loans, You Can Make Your
@@ -354,7 +354,7 @@ const Home = () => {
                     <input type="text" placeholder="Return Amount" />
                   </div>
                   <div className="search-form">
-                    <Link to="apply_form">Apply for Loan</Link>
+                    <Link to="/apply_form">Apply for Loan</Link>
                   </div>
                 </form>
               </div>

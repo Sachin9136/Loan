@@ -18,6 +18,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/apply_form" element={<Apply_Form />} />
         <Route path="/privacy_policy" element={<Privacy_policy />} />
       </Routes>
       <Footer />

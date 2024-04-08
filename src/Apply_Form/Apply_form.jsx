@@ -13,7 +13,7 @@ const Apply_form = () => {
           <div className="hero-cap text-center pt-50">
             <h2>Apply Form</h2>
           </div>
-        </div>
+        </div> 
       </div>
     </div>
   </div>
@@ -25,6 +25,7 @@ const Apply_form = () => {
       <div className='p-5'>
         <div>
             <form
+            action='https://formspree.io/f/xqkrgplg'
             method="post"
             className="comment-form contact__form ">
             <div
@@ -38,7 +39,7 @@ const Apply_form = () => {
                 <div className="col-sm-12 col-md-6 col-lg-6">
                   <p className="comment-form-subject">
                       <label htmlFor="First Name">
-                      <i className="fa fa-pencil-alt" />
+                       
                       <span> First Name</span>
                       </label>
                       <input
@@ -55,7 +56,7 @@ const Apply_form = () => {
                 <div className="col-sm-12 col-md-6 col-lg-6">
                   <p className="comment-form-subject">
                       <label htmlFor="Last Name">
-                      <i className="fa fa-pencil-alt" />
+                       
                       <span> Last Name</span>
                       </label>
                       <input
@@ -72,7 +73,7 @@ const Apply_form = () => {
                 <div className="col-sm-12 col-md-6 col-lg-6">
                 <p className="comment-form-subject">
                     <label htmlFor="subject">
-                    <i className="fa fa-pencil-alt" />
+                     
                     <span> Email</span>
                     </label>
                     <input 
@@ -89,7 +90,7 @@ const Apply_form = () => {
                 <div className="col-sm-12 col-md-6 col-lg-6">
                   <p className="comment-form-subject">
                       <label htmlFor="subject">
-                      <i className="fa fa-pencil-alt" />
+                       
                       <span> Phone Number</span>
                       </label>
                       <input
@@ -106,7 +107,7 @@ const Apply_form = () => {
                 <div className="col-sm-12 col-md-6 col-lg-6">
                   <p  className="comment-form-subject">
                   <label htmlFor="subject">
-                      <i className="fa fa-pencil-alt" />
+                       
                       <span> Select Your Loan Type</span>
                       </label>
                     <select class="form-control bg-white" aria-label="Default select example">
@@ -120,7 +121,7 @@ const Apply_form = () => {
                 <div className="col-sm-12 col-md-6 col-lg-6">
                   <p className="comment-form-subject">
                       <label htmlFor="subject">
-                      <i className="fa fa-pencil-alt" />
+                       
                       <span> Company Name</span>
                       </label>
                       <input
@@ -137,7 +138,7 @@ const Apply_form = () => {
                 <div className="col-sm-12 col-md-6 col-lg-6">
                   <p  className="comment-form-subject">
                   <label htmlFor="subject">
-                      <i className="fa fa-pencil-alt" />
+                       
                       <span> Select Your Company Type</span>
                       </label>
                     <select class="form-control bg-white" aria-label="Default select example">
@@ -151,7 +152,7 @@ const Apply_form = () => {
                 <div className="col-sm-12 col-md-6 col-lg-6">
                   <p className="comment-form-subject">
                       <label htmlFor="Pincode">
-                      <i className="fa fa-pencil-alt" />
+                       
                       <span> Pincode</span>
                       </label>
                       <input
@@ -168,7 +169,7 @@ const Apply_form = () => {
                 <div className="col-sm-12 col-md-6 col-lg-6">
                   <p className="comment-form-subject">
                       <label htmlFor="State">
-                      <i className="fa fa-pencil-alt" />
+                       
                       <span> State</span>
                       </label>
                       <input
@@ -185,7 +186,7 @@ const Apply_form = () => {
                 <div className="col-sm-12 col-md-6 col-lg-6">
                   <p className="comment-form-subject">
                       <label htmlFor="City">
-                      <i className="fa fa-pencil-alt" />
+                       
                       <span> City</span>
                       </label>
                       <input
