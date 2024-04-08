@@ -12,7 +12,7 @@ const About = () => {
     <div className="container">
       <div className="row">
         <div className="col-xl-12">
-          <div className="hero-cap text-center pt-50 underline">
+          <div className="hero-cap text-center pt-50">
             <h2>About us</h2>
           </div>
         </div>
