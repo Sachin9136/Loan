@@ -43,7 +43,7 @@ function Emi_Calculator() {
                     </div>
                 </form>
                 <div className='text-center'>
-                    {emi && <div className='text-white h4'>Your Monthly EMI: ₹ {emi}</div>}
+                    {emi && <div className='text-white h4'>Total Amount: ₹ {emi}</div>}
                 </div>
             </div>
         </div> 
