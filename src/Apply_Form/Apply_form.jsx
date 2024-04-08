@@ -19,7 +19,7 @@ const Apply_form = () => {
   </div>
   {/*Hero End */}
   {/* Apply Area Start */}
-  <div className="container">
+  <div className="container mb-5">
     <div className="row d-flex justify-content-center">
       <div className="col-sm-12 col-md-10 col-lg-10 form-bg">
       <div className='p-5'>
