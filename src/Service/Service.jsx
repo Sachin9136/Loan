@@ -210,7 +210,7 @@ const Service = () => {
                 <Link to="/apply_form">General Insurance</Link>
               </h5>
               <p>
-              Simple Insurance: Our Knowledge, Your Safety.
+              Protect what matters most with our comprehensive and reliable general insurance coverage options.
               </p>
             </div>
           </div>
