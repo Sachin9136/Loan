@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import "./Service.css";
 
 const Service = () => {
   return (
@@ -34,7 +35,7 @@ const Service = () => {
         <div className="col-lg-3 col-md-6 col-sm-6">
           <div className="single-cat single-cat2 text-center mb-50">
             <div className="cat-icon">
-              <span className="flaticon-work" />
+              <img src="assets/img/logo/briefcase.png" alt="" />
             </div>
             <div className="cat-cap">
               <h5>
@@ -49,7 +50,7 @@ const Service = () => {
         <div className="col-lg-3 col-md-6 col-sm-6">
           <div className="single-cat single-cat2 text-center mb-50">
             <div className="cat-icon">
-              <span className="flaticon-loan-1" />
+              <img src="assets/img/logo/house.png" alt="" />
             </div>
             <div className="cat-cap">
               <h5>
@@ -64,7 +65,7 @@ const Service = () => {
         <div className="col-lg-3 col-md-6 col-sm-6">
           <div className="single-cat single-cat2 text-center mb-50">
             <div className="cat-icon">
-              <span className="flaticon-work" />
+              <img src="assets/img/logo/personal.png" alt="" />
             </div>
             <div className="cat-cap">
               <h5>
@@ -79,7 +80,7 @@ const Service = () => {
         <div className="col-lg-3 col-md-6 col-sm-6">
           <div className="single-cat single-cat2 text-center mb-50">
             <div className="cat-icon">
-              <span className="flaticon-like" />
+              <img src="assets/img/logo/credit-card.png" alt="" />
             </div>
             <div className="cat-cap">
               <h5>
@@ -94,7 +95,7 @@ const Service = () => {
         <div className="col-lg-3 col-md-6 col-sm-6">
           <div className="single-cat single-cat2 text-center mb-50">
             <div className="cat-icon">
-              <span className="flaticon-like" />
+              <img src="assets/img/logo/assets.png" alt="" />
             </div>
             <div className="cat-cap">
               <h5>
@@ -109,7 +110,7 @@ const Service = () => {
         <div className="col-lg-3 col-md-6 col-sm-6">
           <div className="single-cat single-cat2 text-center mb-50">
             <div className="cat-icon">
-              <span className="flaticon-loan" />
+              <img src="assets/img/logo/education.png" alt="" />
             </div>
             <div className="cat-cap">
               <h5>
@@ -124,7 +125,7 @@ const Service = () => {
         <div className="col-lg-3 col-md-6 col-sm-6">
           <div className="single-cat single-cat2 text-center mb-50">
             <div className="cat-icon">
-              <span className="flaticon-loan-1" />
+              <img src="assets/img/logo/new-car.png" alt="" />
             </div>
             <div className="cat-cap">
               <h5>
@@ -139,7 +140,7 @@ const Service = () => {
         <div className="col-lg-3 col-md-6 col-sm-6">
           <div className="single-cat single-cat2 text-center mb-50">
             <div className="cat-icon">
-              <span className="flaticon-loan-1" />
+              <img src="assets/img/logo/loan.png" alt="" />
             </div>
             <div className="cat-cap">
               <h5>
@@ -172,7 +173,7 @@ const Service = () => {
         <div className="col-lg-3 col-md-6 col-sm-6">
           <div className="single-cat single-cat2 text-center mb-50">
             <div className="cat-icon">
-              <span className="flaticon-work" />
+              <img src="assets/img/logo/insurance.png" alt="" />
             </div>
             <div className="cat-cap">
               <h5>
@@ -187,7 +188,7 @@ const Service = () => {
         <div className="col-lg-3 col-md-6 col-sm-6">
           <div className="single-cat single-cat2 text-center mb-50">
             <div className="cat-icon">
-              <span className="flaticon-loan" />
+              <img src="assets/img/logo/healthcare.png" alt="" />
             </div>
             <div className="cat-cap">
               <h5>
@@ -202,7 +203,7 @@ const Service = () => {
         <div className="col-lg-3 col-md-6 col-sm-6">
           <div className="single-cat single-cat2 text-center mb-50">
             <div className="cat-icon">
-              <span className="flaticon-loan-1" />
+              <img src="assets/img/logo/shield.png" alt="" />
             </div>
             <div className="cat-cap">
               <h5>

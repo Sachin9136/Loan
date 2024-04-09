@@ -132,6 +132,21 @@ const Contact = () => {
         </section>
         {/* ================ contact section end ================= */}
       </main>
+      <div className="container">
+        <div className="row d-flex justify-content-center py-5">
+          <div className="col-sm-12 col-md-10 col-lg-9">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.3088148916204!2d84.3608549751993!3d26.219153577067406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992fc066ab92193%3A0x9b1f2c64850ed220!2sFaiz%20hospital!5e0!3m2!1sen!2sin!4v1712662962389!5m2!1sen!2sin"
+            width="100%"
+            height={450}
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

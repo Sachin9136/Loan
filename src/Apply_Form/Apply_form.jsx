@@ -112,9 +112,13 @@ const Apply_form = () => {
                       </label>
                     <select class="form-control bg-white" aria-label="Default select example">
                       <option selected>Open this select menu</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
+                      <option value="1">Home Loan</option>
+                      <option value="2">Business Loan</option>
+                      <option value="3">Loan Against Property</option>
+                      <option value="4">Car Loan</option>
+                      <option value="5">Gold Loan</option>
+                      <option value="6">Credit Card</option>
+                      <option value="7">Insurance</option>
                     </select>
                   </p>
                 </div>
@@ -143,9 +147,12 @@ const Apply_form = () => {
                       </label>
                     <select class="form-control bg-white" aria-label="Default select example">
                       <option selected>Open this select menu</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
+                      <option value="1">Public Limited</option>
+                      <option value="2">Private Limited</option>
+                      <option value="3">Government</option>
+                      <option value="3">Proprietorship</option>
+                      <option value="3">Partnership</option>
+                      <option value="3">Limited Liability Partnership</option>
                     </select>
                   </p>
                 </div>

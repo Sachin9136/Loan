@@ -184,7 +184,7 @@ const Home = () => {
               <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="single-cat text-center mb-50">
                   <div className="cat-icon">
-                    <span className="flaticon-work" />
+                  <img src="assets/img/logo/briefcase.png" alt="" />
                   </div>
                   <div className="cat-cap">
                     <h5>
@@ -200,7 +200,7 @@ const Home = () => {
               <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="single-cat single-cat2 text-center mb-50">
                   <div className="cat-icon">
-                    <span className="flaticon-like" />
+                  <img src="assets/img/logo/credit-card.png" alt="" />
                   </div>
                   <div className="cat-cap">
                     <h5>
@@ -216,7 +216,7 @@ const Home = () => {
               <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="single-cat single-cat2 text-center mb-50">
                   <div className="cat-icon">
-                    <span className="flaticon-loan-1" />
+                  <img src="assets/img/logo/house.png" alt="" />
                   </div>
                   <div className="cat-cap">
                     <h5>
@@ -232,15 +232,14 @@ const Home = () => {
               <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="single-cat single-cat2 text-center mb-50">
                   <div className="cat-icon">
-                    <span className="flaticon-work" />
+                    <img src="assets/img/logo/healthcare.png" alt="" />
                   </div>
                   <div className="cat-cap">
                     <h5>
-                      <Link to="/apply_form">Personal Loan</Link>
+                      <Link to="/apply_form">Health Insurance</Link>
                     </h5>
                     <p>
-                      With Our Vast Range Of Personal Loans, You Can Make Your
-                      Dreams A Reality.
+                    Discover Our Excellent Insurance Options To Make Sure Your Health Is In Good Hands.
                     </p>
                   </div>
                 </div>
