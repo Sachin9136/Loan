@@ -110,21 +110,6 @@ const Service = () => {
         <div className="col-lg-3 col-md-6 col-sm-6">
           <div className="single-cat single-cat2 text-center mb-50">
             <div className="cat-icon">
-              <img src="assets/img/logo/education.png" alt="" />
-            </div>
-            <div className="cat-cap">
-              <h5>
-                <Link to="/apply_form">Education Loans</Link>
-              </h5>
-              <p>
-              With Our Specialized Education Loans, You Can Ensure Your Child's Future Academic Success.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-6 col-sm-6">
-          <div className="single-cat single-cat2 text-center mb-50">
-            <div className="cat-icon">
               <img src="assets/img/logo/new-car.png" alt="" />
             </div>
             <div className="cat-cap">
