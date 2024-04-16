@@ -2,7 +2,12 @@ import React from "react";
 
 const Contact = () => {
   return (
-    
+    <>
+    <style>{`
+        .bg-contact-page{
+          background-color: #ccffff;
+        }
+      `}</style>
     <div className="bg-contact-page">
       <main>
         {/* Hero Start*/}
@@ -25,7 +30,7 @@ const Contact = () => {
               <div className="col-12">
                 <h2 className="contact-title">Get in Touch</h2>
               </div>
-              <div className="col-lg-8">
+              <div className="col-lg-8 pt-3 rounded mb-3">
                 <form
                 action='https://formspree.io/f/mayrlebp'
                   className="form-contact contact_form"
@@ -33,11 +38,11 @@ const Contact = () => {
                   id="contactForm"
                   noValidate="novalidate"
                 >
-                  <div className="row">
+                  <div className="row ">
                     <div className="col-12">
                       <div className="form-group">
                         <textarea
-                          className="form-control w-100"
+                          className="form-control w-100 border border-dark"
                           name="message"
                           id="message"
                           cols={30}
@@ -50,7 +55,7 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="col-sm-6">
-                      <div className="form-group">
+                      <div className="form-group border border-dark">
                         <input
                           className="form-control valid"
                           name="name"
@@ -63,7 +68,7 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="col-sm-6">
-                      <div className="form-group">
+                      <div className="form-group border border-dark">
                         <input
                           className="form-control valid"
                           name="email"
@@ -76,7 +81,7 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="col-12">
-                      <div className="form-group">
+                      <div className="form-group border border-dark text-dark">
                         <input
                           className="form-control"
                           name="subject"
@@ -99,7 +104,7 @@ const Contact = () => {
                   </div>
                 </form>
               </div>
-              <div className="col-lg-3 offset-lg-1">
+              <div className="col-lg-3 offset-lg-1 border border-dark p-3 rounded">
                 <div className="media contact-info">
                   <span className="contact-info__icon">
                     <i className="ti-home" />
@@ -135,11 +140,12 @@ const Contact = () => {
       </main>
       <div className="container">
         <div className="row d-flex justify-content-center py-5">
-          <div className="col-sm-12 col-md-10 col-lg-9">
+          <div className="col-sm-12 col-md-12 col-lg-12 border border-dark p-2 rounded">
           <iframe
+          className="rounded"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.3088148916204!2d84.3608549751993!3d26.219153577067406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992fc066ab92193%3A0x9b1f2c64850ed220!2sFaiz%20hospital!5e0!3m2!1sen!2sin!4v1712662962389!5m2!1sen!2sin"
             width="100%"
-            height={450}
+            height={250}
             style={{ border: 0 }}
             allowFullScreen=""
             loading="lazy"
@@ -149,6 +155,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

@@ -33,7 +33,7 @@ const Service = () => {
       </div>
       <div className="row">
         <div className="col-lg-3 col-md-6 col-sm-6">
-          <div className="single-cat single-cat2 text-center mb-50">
+          <div className="single-cat single-cat2 text-center mb-50 bg-one">
             <div className="cat-icon">
               <img src="assets/img/logo/briefcase.png" alt="" />
             </div>
@@ -48,7 +48,7 @@ const Service = () => {
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-6">
-          <div className="single-cat single-cat2 text-center mb-50">
+          <div className="single-cat single-cat2 text-center mb-50 bg-two">
             <div className="cat-icon">
               <img src="assets/img/logo/house.png" alt="" />
             </div>
@@ -63,7 +63,7 @@ const Service = () => {
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-6">
-          <div className="single-cat single-cat2 text-center mb-50">
+          <div className="single-cat single-cat2 text-center mb-50 bg-three">
             <div className="cat-icon">
               <img src="assets/img/logo/personal.png" alt="" />
             </div>
@@ -78,7 +78,7 @@ const Service = () => {
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-6">
-          <div className="single-cat single-cat2 text-center mb-50">
+          <div className="single-cat single-cat2 text-center mb-50 bg-four">
             <div className="cat-icon">
               <img src="assets/img/logo/credit-card.png" alt="" />
             </div>
@@ -93,7 +93,7 @@ const Service = () => {
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-6">
-          <div className="single-cat single-cat2 text-center mb-50">
+          <div className="single-cat single-cat2 text-center mb-50 bg-one">
             <div className="cat-icon">
               <img src="assets/img/logo/assets.png" alt="" />
             </div>
@@ -108,7 +108,7 @@ const Service = () => {
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-6">
-          <div className="single-cat single-cat2 text-center mb-50">
+          <div className="single-cat single-cat2 text-center mb-50 bg-two">
             <div className="cat-icon">
               <img src="assets/img/logo/new-car.png" alt="" />
             </div>
@@ -123,7 +123,7 @@ const Service = () => {
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-6">
-          <div className="single-cat single-cat2 text-center mb-50">
+          <div className="single-cat single-cat2 text-center mb-50 bg-three">
             <div className="cat-icon">
               <img src="assets/img/logo/loan.png" alt="" />
             </div>
@@ -148,7 +148,7 @@ const Service = () => {
       <div className="row justify-content-center">
         <div className="col-lg-6 col-md-10">
           {/* Section Tittle */}
-          <div className="section-tittle text-center mb-80">
+          <div className="section-tittle text-center mb-80 bg-one">
             {/* <span>Services that we are providing</span> */}
             <h2>Insurance</h2>
           </div>
@@ -156,7 +156,7 @@ const Service = () => {
       </div>
       <div className="row">
         <div className="col-lg-3 col-md-6 col-sm-6">
-          <div className="single-cat single-cat2 text-center mb-50">
+          <div className="single-cat single-cat2 text-center mb-50 bg-four">
             <div className="cat-icon">
               <img src="assets/img/logo/insurance.png" alt="" />
             </div>
@@ -171,7 +171,7 @@ const Service = () => {
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-6">
-          <div className="single-cat single-cat2 text-center mb-50">
+          <div className="single-cat single-cat2 text-center mb-50 bg-two">
             <div className="cat-icon">
               <img src="assets/img/logo/healthcare.png" alt="" />
             </div>
@@ -186,7 +186,7 @@ const Service = () => {
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-6">
-          <div className="single-cat single-cat2 text-center mb-50">
+          <div className="single-cat single-cat2 text-center mb-50 bg-three">
             <div className="cat-icon">
               <img src="assets/img/logo/shield.png" alt="" />
             </div>

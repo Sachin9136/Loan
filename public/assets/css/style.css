@@ -3905,8 +3905,8 @@ hr {
   transition: all 0.4s ease-out 0s;
   position: relative;
   z-index: 1;
-  background: #fff;
-  background: #fff;
+  /* background: #fff; */
+  /* background: #fff; */
   border: 1px solid black;
   border-radius: 5px ;
 }
@@ -4012,7 +4012,7 @@ hr {
 
 /* line 89, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_services_section.scss */
 .services-area .single-cat.single-cat2 {
-  background: #fcfeff;
+  /* background: #fcfeff; */
 }
 
 /* line 2, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_support-company.scss */

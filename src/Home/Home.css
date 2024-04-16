@@ -56,3 +56,19 @@
     line-height: 22px;
     font-size: 14px;
 }
+
+.bg-one{
+    background-color: #ffcccc;
+}
+
+.bg-two{
+    background-color: #ccffcc;
+}
+
+.bg-three{
+    background-color: #ccccff;
+}
+
+.bg-four{
+    background-color: #ffffcc;
+}

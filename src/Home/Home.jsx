@@ -158,7 +158,7 @@ const Home = () => {
             </div>
             <div className="row">
               <div className="col-lg-3 col-md-6 col-sm-6">
-                <div className="single-cat text-center mb-50">
+                <div className="single-cat text-center mb-50 bg-one">
                   <div className="cat-icon">
                   <img src="assets/img/logo/briefcase.png" alt="" />
                   </div>
@@ -174,7 +174,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6">
-                <div className="single-cat single-cat2 text-center mb-50">
+                <div className="single-cat single-cat2 text-center mb-50 bg-two">
                   <div className="cat-icon">
                   <img src="assets/img/logo/credit-card.png" alt="" />
                   </div>
@@ -190,7 +190,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6">
-                <div className="single-cat single-cat2 text-center mb-50">
+                <div className="single-cat single-cat2 text-center mb-50 bg-three">
                   <div className="cat-icon">
                   <img src="assets/img/logo/house.png" alt="" />
                   </div>
@@ -206,7 +206,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6">
-                <div className="single-cat single-cat2 text-center mb-50">
+                <div className="single-cat single-cat2 text-center mb-50 bg-four">
                   <div className="cat-icon">
                     <img src="assets/img/logo/healthcare.png" alt="" />
                   </div>
