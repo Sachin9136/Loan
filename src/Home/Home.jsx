@@ -41,30 +41,6 @@ const Home = () => {
               </div>
             </div>
             {/* Single Slider */}
-            {/* <div className="single-slider">
-              <div className="slider-cap-wrapper">
-                <div className="hero__caption">
-                  <p data-animation="fadeInLeft" data-delay=".2s">
-                    Reach your financial objective.
-                  </p>
-                  <h1 data-animation="fadeInLeft" data-delay=".5s">
-                    Small Company Loans for Everyday Costs.
-                  </h1>
-                  Hero Btn
-                  <Link
-                    to="/apply_form"
-                    className="btn hero-btn"
-                    data-animation="fadeInLeft"
-                    data-delay=".8s"
-                  >
-                    Apply for Loan
-                  </Link>
-                </div>
-                <div className="hero__img">
-                  <img src="assets/img/hero/hero_img3.png" alt="" />
-                </div>
-              </div>
-            </div> */}
           </div>
           {/* slider-footer Start */}
           <div className="slider-footer section-bg d-none d-sm-block ">
@@ -296,14 +272,6 @@ const Home = () => {
                         />
                         <span className="checkmark" />
                       </label>
-                      {/* <label className="single-items">
-                        Admkde mibvnim veniam, quivds cnostrud.
-                        <input
-                          type="checkbox"
-                          defaultChecked="checked active"
-                        />
-                        <span className="checkmark" />
-                      </label> */}
                     </div>
                   </div>
                 </div>
@@ -324,41 +292,6 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="row justify-content-center">
-              <div className="col-lg-9 col-xl-8"> 
-                <form action="#" className="search-box">
-                  <div className="select-form">
-                    <div className="select-itms">
-                      <select name="select" id="select1">
-                        <option value="">Select Amount</option>
-                        <option value="">$120</option>
-                        <option value="">$700</option>
-                        <option value="">$750</option>
-                        <option value="">$250</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div className="select-form">
-                    <div className="select-itms">
-                      <select name="select" id="select1">
-                        <option value="">Duration Month</option>
-                        <option value="">7 Days</option>
-                        <option value="">10 Days</option>
-                        <option value="">14 Days Days</option>
-                        <option value="">20 Days</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div className="input-form">
-                    <input type="text" placeholder="Return Amount" />
-                  </div>
-                  <div className="search-form">
-                    <Link to="/apply_form">Apply for Loan</Link>
-                  </div>
-                </form>
-              </div>
-            </div> */}
-            .
             <Emi_Calculator />
           </div>
         </div>

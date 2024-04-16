@@ -2,7 +2,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div>
+    
+    <div className="bg-contact-page">
       <main>
         {/* Hero Start*/}
         <div className="hero-area2  slider-height2 hero-overly2 d-flex align-items-center ">
@@ -104,7 +105,7 @@ const Contact = () => {
                     <i className="ti-home" />
                   </span>
                   <div className="media-body">
-                    <h3>Makhdum Sarai Rd, near FAIZ HOSPITAL, M.m Colony, Fathepur, Siwan, Bihar 841226</h3>
+                    <h3>Makhdum Sarai Rd, near FAIZ HOSPITAL, Siwan, Bihar 841226</h3>
                     {/* <p>Rosemead, CA 91770</p> */}
                   </div>
                 </div>
