@@ -20,7 +20,7 @@ const Footer = () => {
               <div className="footer-pera pt-3">
                 <p>
                   Heaven fruitful doesn't over lesser days appear creeping
-                  seasons so behold bearing
+                  seasons so behold bearing.
                 </p>
               </div>
             </div>
@@ -74,13 +74,14 @@ const Footer = () => {
               <h4>Support</h4>
               <ul>
                 <li>
-                  <Link to="#">+91 9939130196</Link> 
+                  <Link to="#">+91 9939130196</Link> <br />
+                  <Link to="#">+91 7366031877</Link> 
                 </li>
                 <li>
                   <Link to="#">loanservicepoint01@gmail.com</Link> 
                 </li>
                 <li>
-                  <Link to="#">Makhdum Sarai Rd, near FAIZ HOSPITAL, M.m Colony, Fathepur, Siwan, Bihar 841226</Link> 
+                  <Link to="#">Makhdum Sarai Rd, near FAIZ HOSPITAL, Siwan, Bihar 841226</Link> 
                 </li>
                 <li>
                   <Link to="/privacy_policy">Privacy Policy</Link> 
@@ -111,7 +112,7 @@ const Footer = () => {
             {/* <Link to="#">
               <i className="fab fa-twitter" />
             </Link>  */}
-            <a href="https://www.facebook.com/profile.php?id=61557768758518">
+            <a href="https://www.facebook.com/profile.php?id=61557768758518" target='blank'>
               <i className="fab fa-facebook-f fs-5" />
             </a> 
             <a href="#">

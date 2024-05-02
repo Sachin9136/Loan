@@ -72,7 +72,7 @@ const Service = () => {
                 <Link to="/apply_form">Personal Loan</Link>
               </h5>
               <p>
-              With Our Vast Range Of Personal Loans, You Can Make Your Dreams A Reality.
+              Get funds for any purpose with our flexible personal loans. Quick approval, competitive rates. Apply now!
               </p>
             </div>
           </div>
@@ -102,7 +102,7 @@ const Service = () => {
                 <Link to="/apply_form">Gold Loan</Link>
               </h5>
               <p>
-              Fulfill Your Financial Needs With Gold Loan From Various Banking Partners
+              Unlock liquidity with our hassle-free gold loans. Fast processing, low interest rates. Secure your future today.
               </p>
             </div>
           </div>
@@ -132,8 +132,22 @@ const Service = () => {
                 <Link to="/apply_form">Loan Against Property</Link>
               </h5>
               <p>
-                Consectetur adipisicing elit, sed doeiusmod tempor incididunt ut
-                labore et dolore
+              Unlock value of property with our Loan Against Property. Flexible, low-interest loans tailored to your needs.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-6 col-sm-6">
+          <div className="single-cat single-cat2 text-center mb-50 bg-three">
+            <div className="cat-icon">
+              <img src="assets/img/logo/loan.png" alt="" />
+            </div>
+            <div className="cat-cap">
+              <h5>
+                <Link to="/apply_form">Income Tax Consultant</Link>
+              </h5>
+              <p>
+              Maximize returns with expert income tax consulting. Navigate complexities, optimize savings.
               </p>
             </div>
           </div>
@@ -196,6 +210,21 @@ const Service = () => {
               </h5>
               <p>
               Protect what matters most with our comprehensive and reliable general insurance coverage options.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-6 col-sm-6">
+          <div className="single-cat single-cat2 text-center mb-50 bg-one">
+            <div className="cat-icon">
+              <img src="assets/img/logo/4599163.png" alt="" />
+            </div>
+            <div className="cat-cap">
+              <h5>
+                <Link to="/apply_form">All Type of Insurance</Link>
+              </h5>
+              <p>
+              Secure your assets with our range of insurance plans. Protect what matters most. Contact us for details.
               </p>
             </div>
           </div>

@@ -27,15 +27,13 @@ function AutoPlay() {
                                 <img src="assets/img/testmonial/Homepage_testi.png" alt="" />
                             </div>
                             <div className="founder-text">
-                            <span>Sachin1 </span>
-                            <p>Co Founder</p>
+                            <span>Sachin Gupta </span>
+                            <p>Director</p>
                             </div>
                         </div>
                         <div className="testimonial-top-cap">
                             <p>
-                            Navigating the loan process with this website was a
-                            game-changer for me. Their platform made it incredibly simple
-                            to compare options and apply.
+                            Quick and hassle-free loan approval. Transparent process and competitive rates. Highly satisfied with their services.
                             </p>
                         </div>
                         </div>
@@ -51,15 +49,13 @@ function AutoPlay() {
                             <img src="assets/img/testmonial/Homepage_testi.png" alt="" />
                             </div>
                             <div className="founder-text">
-                            <span>Sachin2 </span>
+                            <span>Rajesh Patel </span>
                             <p>Co Founder</p>
                             </div>
                         </div>
                         <div className="testimonial-top-cap">
                             <p>
-                            Navigating the loan process with this website was a
-                            game-changer for me. Their platform made it incredibly simple
-                            to compare options and apply.
+                            Exceptional support and guidance throughout. Secured a loan effortlessly. Recommend to anyone seeking financial assistance.
                             </p>
                         </div>
                         </div>
@@ -75,15 +71,13 @@ function AutoPlay() {
                             <img src="assets/img/testmonial/Homepage_testi.png" alt="" />
                             </div>
                             <div className="founder-text">
-                            <span>Sachin3 </span>
-                            <p>Co Founder</p>
+                            <span>Amit Kumar </span>
+                            <p>Founder</p>
                             </div>
                         </div>
                         <div className="testimonial-top-cap">
                             <p>
-                            Navigating the loan process with this website was a
-                            game-changer for me. Their platform made it incredibly simple
-                            to compare options and apply.
+                            Reliable and trustworthy. Their expertise helped me navigate complex loan options, ensuring the best deal. Grateful for their assistance.
                             </p>
                         </div>
                         </div>

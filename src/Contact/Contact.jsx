@@ -119,7 +119,8 @@ const Contact = () => {
                     <i className="ti-tablet" />
                   </span>
                   <div className="media-body">
-                    <h3>+91 9939130196</h3>
+                    <h3 className="py-2">+91 9939130196</h3>
+                    <h3>+91 7366031877</h3>
                     <p>Mon to Fri 9am to 6pm</p>
                   </div>
                 </div>
