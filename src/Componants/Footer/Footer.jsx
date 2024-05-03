@@ -115,12 +115,18 @@ const Footer = () => {
             <a href="https://www.facebook.com/profile.php?id=61557768758518" target='blank'>
               <i className="fab fa-facebook-f fs-5" />
             </a> 
+            <a href="https://www.instagram.com/dipak_jaiswal_/" target='blank'>
+              <i className="fab fa-instagram fs-5" />
+            </a> 
+            <a href="https://twitter.com/DeepakJ36518834" target='blank'>
+            <i class="fa-brands fa-twitter fs-5"></i>
+            </a> 
+            <a href="https://www.linkedin.com/in/dipak-jaiswal-181804307/" target='blank'>
+            <i class="fa-brands fa-linkedin-in fs-5"></i>
+            </a> 
             <a href="#">
               <i className="fas fa-globe  fs-5" />
             </a> 
-            {/* <Link to="#">
-              <i className="fab fa-instagram" />
-            </Link>  */}
           </div>
         </div>
       </div>

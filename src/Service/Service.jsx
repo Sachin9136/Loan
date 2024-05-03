@@ -140,14 +140,14 @@ const Service = () => {
         <div className="col-lg-3 col-md-6 col-sm-6">
           <div className="single-cat single-cat2 text-center mb-50 bg-three">
             <div className="cat-icon">
-              <img src="assets/img/logo/loan.png" alt="" />
+              <img className='display-1' src="assets/img/logo/income-tax.png" alt="" width="100%"/>
             </div>
             <div className="cat-cap">
               <h5>
                 <Link to="/apply_form">Income Tax Consultant</Link>
               </h5>
               <p>
-              Maximize returns with expert income tax consulting. Navigate complexities, optimize savings.
+                Maximize returns with expert income tax consulting. Navigate complexities, optimize savings.
               </p>
             </div>
           </div>
